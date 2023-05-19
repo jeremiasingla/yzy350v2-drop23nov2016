@@ -7,24 +7,24 @@ let imgChange3 = document.getElementById("imgChange3");
 let imgChange4 = document.getElementById("imgChange4");
 
 redBtn.onclick = function () {
-  imgChange1.src = "../images/red/red1.jpeg";
-  imgChange2.src = "../images/red/red2.jpeg";
-  imgChange3.src = "../images/red/red3.jpeg";
-  imgChange4.src = "../images/red/red4.jpeg";
+  imgChange1.src = "images/red/red1.jpeg";
+  imgChange2.src = "images/red/red2.jpeg";
+  imgChange3.src = "images/red/red3.jpeg";
+  imgChange4.src = "images/red/red4.jpeg";
 };
 
 greenBtn.onclick = function () {
-  imgChange1.src = "../images/green/green1.jpeg";
-  imgChange2.src = "../images/green/green2.jpeg";
-  imgChange3.src = "../images/green/green3.jpeg";
-  imgChange4.src = "../images/green/green4.jpeg";
+  imgChange1.src = "images/green/green1.jpeg";
+  imgChange2.src = "images/green/green2.jpeg";
+  imgChange3.src = "images/green/green3.jpeg";
+  imgChange4.src = "images/green/green4.jpeg";
 };
 
 copperBtn.onclick = function () {
-  imgChange1.src = "../images/copper/copper1.jpeg";
-  imgChange2.src = "../images/copper/copper2.jpeg";
-  imgChange3.src = "../images/copper/copper3.jpeg";
-  imgChange4.src = "../images/copper/copper4.jpeg";
+  imgChange1.src = "images/copper/copper1.jpeg";
+  imgChange2.src = "images/copper/copper2.jpeg";
+  imgChange3.src = "images/copper/copper3.jpeg";
+  imgChange4.src = "images/copper/copper4.jpeg";
 };
 
 const colorRed = document.querySelector(".color__picker--red");
