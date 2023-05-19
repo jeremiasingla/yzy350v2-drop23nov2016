@@ -201,7 +201,8 @@ option {
 }
 
 .add-to-cart {
-  width: 375px;
+  width: 100%;
+  max-width: 375px;
   margin-bottom: 15px;
 }
 
@@ -319,4 +320,46 @@ footer ul li a {
   position: relative;
   left: 60px;
   top: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .gallery--cart h1,
+  .gallery--cart p,
+  select,
+  .button,
+  .description,
+  .signup {
+    font-size: 20px;
+  }
+
+  .gallery--cart .inner {
+    max-width: 90%;
+  }
+
+  .text__purchase {
+    max-width: 100%;
+  }
+
+  .button__group {
+    max-width: 100%;
+  }
+
+  .gallery {
+    overflow: hidden;
+    text-align: center;
+    float: none;
+  }
+
+  .add-to-cart {
+    max-width: 100%;
+  }
+
+  .signup .inner {
+    display: flex;
+    flex-direction: column;
+  }
 }
