@@ -354,6 +354,10 @@ footer ul li a {
     float: none;
   }
 
+  .owl-carousel {
+    max-width: 100%;
+  }
+
   .add-to-cart {
     max-width: 100%;
   }
